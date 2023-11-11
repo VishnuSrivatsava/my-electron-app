@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+# https://docs.npmjs.com/misc/developers#keeping-node_modules-out-of-your-repository
+npm-debug.log
+yarn-error.log
+pnp/
+*.pnp
+node_modules/
+.cache/
+*.zip
+*.tar.gz
+*.rar
+
+# Optional: if you're using TypeScript
+# tsconfig*.json
+*.tsbuildinfo
+
+# Optional: if you're using Visual Studio Code
+.vscode/
+
+# Optional: if you're using WebStorm
+.idea/
+*.iml
+
+# Electron build output
+/dist/
+/out/
+/build/
+*.deb
+*.rpm
+*.msi
+*.zip
+*.tar.gz
+*.tar.xz
+*.7z

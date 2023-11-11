@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#left,
+#right {
+  width: 45%;
+  text-align: center;
+}
+
+#left {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#right {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Added to make the container scrollable */
+  max-height: 500px; /* Added a fixed height */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+#timer {
+  font-size: 3em;
+  margin: 0;
+  color: #333;
+}
+
+button {
+  font-size: 1em;
+  padding: 5px 5px; /* Modified to make the button smaller */
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Style changes when the timer is running */
+.timer-running #startStopButton {
+  background-color: #dc3545;
+}
+
+.timer-running #startStopButton:hover {
+  background-color: #a02e35;
+}
+
+#average {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #333;
+}
